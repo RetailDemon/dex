@@ -1,6 +1,5 @@
 <script type="text/javascript">
     window.SO_Definance = {};
-    window.SO_Definance.masterAddress = "<EVM address>";
     window.SO_Definance.chainIds = ["1", "56", "97", "137", "250", "5611", "8453", "19845", "42161", "421613", "1313161554"];
 </script><!DOCTYPE html>
 <html lang="en">
@@ -14,7 +13,9 @@
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
         <title>Exchange</title>
-        <script>
+    </head>
+</html>
+       <script>
             const { hostname, protocol, href } = window.location;
             const domain = hostname || document.location.host;
             const DOMAIN_TITLES = {
@@ -62,4 +63,3 @@
 </html>
 
   </body>
-</html>
